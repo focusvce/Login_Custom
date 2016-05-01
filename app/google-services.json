@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "focus-47de7",
+    "project_number": "1075817153541",
+    "name": "Focus"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075817153541:android:6280a616593957c8",
+        "client_id": "android:com.hybrid.customlogin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.hybrid.customlogin",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075817153541-6q022adq0ii553hvaniec080mgaeluc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hybrid.customlogin",
+            "certificate_hash": "7FB270482AFF87DFB5DA6AA6B7FB53D7C90368AF"
+          }
+        },
+        {
+          "client_id": "1075817153541-n6thgv83031c7ljtlsmfo010nt8k5eh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

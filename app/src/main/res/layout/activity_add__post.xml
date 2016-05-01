@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thenewboston.focus_tab.Add_Post"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="New Post"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:id="@+id/new_post"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_post"
+        android:layout_marginTop="20dp"
+        android:hint="Copy Link Here!"
+        android:textColorHint="@color/colorPrimary"
+        android:id="@+id/link_input"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/link_input"
+        android:layout_marginTop="10dp"
+        android:hint="Title"
+        android:textColorHint="@color/colorPrimary"
+        android:id="@+id/title_input"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_input"
+        android:layout_marginTop="10dp"
+        android:hint="Description"
+        android:textColorHint="@color/colorPrimary"
+        android:id="@+id/desc_input"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:layout_below="@+id/desc_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/enter"
+        android:onClick="button"/>
+
+
+</RelativeLayout>
